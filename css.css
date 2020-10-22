@@ -1,14 +1,12 @@
 body, html {
     height: 100%;
-}
-.bg {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-    height: 100%;
     width: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/14/69/L1i2ET.jpg");
     background-position: center center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+.bg {
     padding-top: 20px;
 }
 
@@ -30,5 +28,11 @@ body, html {
 .container h1 {
     color: blueviolet;
 }
+
+.container img {
+    height: 220px;
+    width: 360px;
+}
+
 
 
